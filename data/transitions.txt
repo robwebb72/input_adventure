@@ -1,0 +1,25 @@
+# locationID  direction  destinationID visibility_flag lock_flag
+4 S 10
+7 E 8
+8 W 7
+8 S 14
+10 N 4
+10 E 11
+10 S 16
+11 W 10 0 0		// can only traverse when the lamp is on & is in this location, or in player's inventory
+11 S 17 0 0		// can only traverse when the lamp is on & is in this location, or in player's inventory
+14 N 8
+14 E 15
+15 W 14
+15 E 16
+16 N 10
+16 S 22
+16 W 15
+16 E 17
+17 N 11
+17 E 18
+17 W 16
+18 W 17
+18 S 24
+22 N 16
+24 N 18

@@ -1,0 +1,51 @@
+# location id
+# location name
+# location description
+
+4
+outside
+You are standing outside a grandiose building.
+
+7
+a river
+You stand beside a fast flowing river.
+
+8
+a petrified forest
+You are inside a petrified forest.
+
+10
+a dusty room
+You are in a dusty room.
+
+11
+a dark room
+You are in a dark room.
+
+14
+a path
+You are on a muddy path in the old kingdom.
+
+15
+a gate
+You stand by the gate to a decrepit castle.
+
+16
+an entrance hall
+You are in the entrance hall of a derelict castle.
+
+17
+a courtyard
+You are in the centre of a courtyard.
+
+18
+a garden
+You stand within the ruins of a once glorious garden.
+
+22
+a side room
+A small side room, containing a solitary cupboard.
+
+24
+a throne room
+You are in a throne room.

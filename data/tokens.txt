@@ -1,0 +1,36 @@
+# verbs
+1 north
+2 south
+3 east
+4 west
+1 n
+2 s
+3 e
+4 w
+5 get
+6 swim
+7 drop
+8 open
+9 turn
+10 pull
+11 shoot
+12 quit
+13 help
+14 inventory
+14 inv
+
+# states
+1500 on
+1501 off
+
+# items
+500 chain
+501 bag
+502 marbles
+503 brick
+504 gun
+
+
+# npcs
+1000 taxman
+
