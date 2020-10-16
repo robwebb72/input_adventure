@@ -7,8 +7,6 @@ I'm using it as a learning exercise while I get acquainted with the modern versi
 ---
 ## Getting Started
 
-### Prerequisites
-
 ### Installation
 
 Clone the repo, then `make` the project.
