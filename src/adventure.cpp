@@ -1,14 +1,23 @@
 #include "adventure.h"
 #include <iostream>
 
+Adventure::Adventure(std::string filename) {
+
+}
+
+Adventure::~Adventure() {
+	
+}
 
 void Adventure::load() {
-	// load everything
+	std::cout << "\t\t[I've loaded everything in, honestly]" << std::endl;
 }
+
 
 bool Adventure::gameOver() {
 	return true;
 }
+
 
 void Adventure::run() {
 	// initialise world

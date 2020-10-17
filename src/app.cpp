@@ -1,6 +1,7 @@
 #include "adventure.h"
 #include <iostream>
 
+
 bool playAgain() {
 	bool validAnswer = false;
 	bool response;
@@ -24,8 +25,9 @@ bool playAgain() {
 }
 
 int main() {
-	Adventure adventure;
+	Adventure adventure {"data"};
 
+	adventure.load();
 	do {
 		adventure.run();
 	} while(playAgain());
