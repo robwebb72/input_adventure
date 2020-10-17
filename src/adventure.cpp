@@ -3,13 +3,15 @@
 
 Adventure::Adventure(std::string filename) {
 
+	load_adventure_data(filename);
 }
 
 Adventure::~Adventure() {
 	
 }
 
-void Adventure::load() {
+
+void Adventure::load_adventure_data(std::string filename) {
 	std::cout << "\t\t[I've loaded everything in, honestly]" << std::endl;
 }
 
