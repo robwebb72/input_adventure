@@ -2,8 +2,8 @@
 #include <iostream>
 
 
-bool playAgain() {
-	bool validAnswer = false;
+bool play_again() {
+	bool valid_answer = false;
 	bool response;
 
 	char in_str[256];
@@ -12,24 +12,23 @@ bool playAgain() {
 		std::cin >> in_str;
 
 		if(in_str[0]=='y' or in_str[0]=='Y') {
-			validAnswer = true;
+			valid_answer = true;
 			response = true;
 		}
 
 		if(in_str[0]=='n' or in_str[0]=='N') {
-			validAnswer = true;
+			valid_answer = true;
 			response = false;
 		}
-	} while (!validAnswer);
+	} while (!valid_answer);
 	return response;
 }
 
 int main() {
 	Adventure adventure {"data"};
-
-	adventure.load();
+	
 	do {
 		adventure.run();
-	} while(playAgain());
+	} while(play_again());
 	return 0;
 }
