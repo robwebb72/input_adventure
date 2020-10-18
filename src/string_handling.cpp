@@ -3,6 +3,7 @@
 
 namespace string_handling {
 
+
 	std::string white_spaces = "\t\n\v\f\r ";
 	inline std::string ltrim(const std::string& str, const std::string& chars = white_spaces) {
 		return str.substr(str.find_first_not_of(white_spaces),str.length());
@@ -20,15 +21,15 @@ namespace string_handling {
 
 
 	std::string str_to_lower(const std::string& str) {
-		std::string lowered;
-		char c;	
+		std::string lower_case;
 		int i {0};
 
 		while(str[i]) {
-			c=str[i++];
-			lowered += tolower(c);
+			char c {str[i++]};
+			lower_case += tolower(c);
 		}
-		return lowered;
+		return lower_case;
 	}
+
 }
 
