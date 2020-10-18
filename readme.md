@@ -4,6 +4,8 @@ This is a c++ version of the text adventure game that appeared in the Input prog
 
 I'm using it as a learning exercise while I get acquainted with the modern version of c++.
 
+[Trello Board](https://trello.com/b/cwMgCQ40/adventure-game)
+
 ---
 ## Getting Started
 
