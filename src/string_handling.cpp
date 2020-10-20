@@ -22,11 +22,9 @@ namespace string_handling {
 
 	std::string str_to_lower(const std::string& str) {
 		std::string lower_case;
-		int i {0};
 
-		while(str[i]) {
-			char c {str[i++]};
-			lower_case += tolower(c);
+		for(int i=0; str[i]; i++) {
+			lower_case += tolower(str[i]);
 		}
 		return lower_case;
 	}
