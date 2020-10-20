@@ -1,0 +1,13 @@
+# This is the text that is displayed at the start of the game
+!welcome-begin
+
+Welcome to the input adventure game.
+
+In the face of financial collapse you have fled the country.
+The solution to your problems lies in finding the fabled jewelled eyeball of the purple icon and passing the final initiative test.
+
+Oh, and beware, the taxman is hot on your tail.
+
+!welcome-end
+!start-loc  14     # the id of the location where the player starts the game
+!game-end  2       # this is the id of the flag that indicates the end of the game
